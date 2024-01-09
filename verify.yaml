@@ -8,10 +8,10 @@ spec:
     type: string
   steps:
     - name: goodbye
-      image: gcr.io/distroless/nodejs16:debug-nonroot-amd64@sha256:3b7d1b976a628ee19277063bc8aa62955f3a4b6220a266eb9b63e7fd3477e476
-      # gcr.io/distroless/base-debian12:debug-nonroot@sha256:a302a1643a267feb5e04b2584255402faa5b8c192a6087408605e83d64e82e20
+      image: gcr.io/distroless/base-debian12:debug-nonroot@sha256:a302a1643a267feb5e04b2584255402faa5b8c192a6087408605e83d64e82e20
       script: |
         #!/bin/bash
         echo "Goodbye $(params.username)!"
-        echo "some other thing"       
+        echo "some other thing" 
+        echo"TEST"      
  

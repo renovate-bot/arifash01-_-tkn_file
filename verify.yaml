@@ -12,6 +12,4 @@ spec:
       script: |
         #!/bin/bash
         echo "Goodbye $(params.username)!"
-        echo "some other thing" 
-        echo"TEST"      
- 
+        echo "some other thing"  

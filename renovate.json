@@ -1,5 +1,11 @@
 {
   "tekton": {
     "fileMatch": ["\\.yaml$", "\\.yml$"]
-  }
+  },
+  "prHeader":"Update Dependency",
+  "prNotPendingHours":1,
+  "assignees":[
+    "arifash01"
+  ],
+  "labels":["dependencies-updates"]
 }
